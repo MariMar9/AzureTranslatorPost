@@ -6,10 +6,10 @@ using Newtonsoft.Json;
 
 class Program
 {
-    private static readonly string key = "263591fc6d2942a5a08d57cbf175fa14";
+    private static readonly string key = "TU_KEY";
     private static readonly string endpoint = "https://api.cognitive.microsofttranslator.com/";
 
-    private static readonly string location = "westeurope";
+    private static readonly string location = "TU_REGION";
     
     static async Task Main(string[] args)
     {
